@@ -62,7 +62,7 @@ class QuestionSpider(scrapy.Spider):
             if not line:
                 break
             if(line[0:1] == "#"):
-                print line
+                print(line)
                 pass
             else:
                 print("current url :  " + line)
